@@ -24,20 +24,32 @@ public class HlavniProgram {
 
     public void start() {
         Turtle zofka = new Turtle();
-        nakresliPrasatko();
+        zofka.move(100);
+        zofka.turnLeft(90);
+        zofka.move(120);
+        zofka.turnLeft(45);
+        zofka.move(70);
+        zofka.turnLeft(90);
+        zofka.move(70);
+        zofka.turnLeft(135);
+        zofka.move(100);
+        zofka.turnLeft(180);
+        zofka.move(100);
+        zofka.turnLeft(90);
+        zofka.move(120);
 
         //první noha prasátka
-        zofka.turnLeft(135);
+        zofka.turnRight(45);
         zofka.move(40);
         zofka.turnLeft(180);
         zofka.move(40);
-        zofka.turnRight(90);
+        zofka.turnLeft(90);
         zofka.move(40);
         zofka.turnLeft(180);
         zofka.move(40);
 
         //přesunutí mezi nohami
-        zofka.turnLeft(45);
+        zofka.turnLeft(135);
         zofka.move(120);
 
         zofka.turnLeft(135);
@@ -48,8 +60,6 @@ public class HlavniProgram {
         zofka.move(40);
         zofka.turnLeft(180);
         zofka.move(40);
-
-
 
     }
 
